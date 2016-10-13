@@ -1,0 +1,3 @@
+class Ninja{
+  int Hitpoint;
+}
