@@ -1,0 +1,15 @@
+class NinjaManager{
+  public static void main(String args[]){
+    Ninja sakura = new Ninja(700);
+
+
+
+    Ninja hinata = new Ninja(200.0);
+
+    System.out.println(sakura.getHitPoint());
+    System.out.println(sakura.getLoyalty());
+
+    System.out.println(hinata.getHitPoint());
+    System.out.println(hinata.getLoyalty());
+  }
+}
